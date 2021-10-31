@@ -196,3 +196,13 @@ button:hover{
 	padding:5px 20px;
 	font-size:1em;
 }
+img{
+	transition: 0.2s;
+	border-radius: 20px;
+}
+
+img:hover{
+	transition: 0.2s;
+	border-radius: 40px;
+	cursor: pointer;
+}
