@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中原大學資訊管理學系</title>
+    <link href="assets/css/set.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/department_resources.css" rel="stylesheet" type="text/css" media="all" />
+
+    
+    <!--
+        set.html與set.css 是我們「每一個網頁」都要有的初始化設定，
+        絕對不要刪減這兩個檔案的任何內容，
+        如果有問題直接在群組說就好。
+        html內文的所有檔案請寫在下方的main裡面，否則內容會消失。
+    -->
+    <link rel="shortcut icon" href="assets/img/cycu.ico" />
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/department_resources1.js"></script>
+    <script src="assets/js/department_resources2.js"></script>
+    <script src="assets/js/float.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><a href="index.html">中原大學資訊管理學系</a></h1>
+        <nav> 
+            <div class="depart"><a href="department_introduction.html">系所介紹</a></div>
+            <div class="course" ><a href="course.html">課程簡介</a></div>
+            <div class="job"><a href="#">未來出路</a></div>
+            <div class="about"><a href="about.html">關於我們</a></div>
+        </nav>
+    </header>
+    <main class="set">
+        <button type="button" id="btn1"><a href="#sec1" class="link">一樓空間設備</a></button>
+        <button type="button" id="btn2"><a href="#sec2" class="link">二樓空間設備</a></button>
+        <button type="button" id="btn3"><a href="#sec3" class="link">三樓空間設備</a></button>
+        <map name="floor1">
+            <area shape="rect" coords="356,55,392,206" href="#sec4">
+            <area shape="rect" coords="192,110,284,206" href="#sec5">
+            <area shape="rect" coords="20,57,59,205" href="#sec6">
+        </map>
+        <map name="floor2">
+            <area shape="rect" coords="356,54,393,208" href="#sec7">
+            <area shape="rect" coords="193,110,238,207" href="#sec8">
+            <area shape="rect" coords="101,110,147,206" href="#sec9">
+        </map>
+        <map name="floor3">
+            <area shape="rect" coords="356,55,393,207" href="#sec10">
+        </map>
+        <h1 id="title1">系所資源</h1>
+        <table align="center">
+            <tr>
+                <td colspan="2" class="table_picture"><img src="assets/img/1f.jpg" class="floor_picture" id="sec1"
+                        usemap="#floor1"></td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/101_1.jpg" class="picture" id="sec4"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 討論室<br>
+                    <font class="title">電腦教室樓層位置</font>: 1F<br>
+                    <font class="title">教室編號</font>: 101<br>
+                    <font class="title">可容納人數</font>: 24人<br>
+                    <font class="title">借用</font>: 資管大學部同學直接用學生證刷卡進入(24HR)<br>
+                    <font class="title">建置設備</font>: 電腦、掃描器、討論桌<br>
+                    <font class="title">教室簡介</font>: 提供大學部學生討論與研究學習之用，內有課程相關書藉及課外圖書供學生於課於時間進行閱讀<br>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/101_2.jpg" class="picture"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 專題教室<br>
+                    <font class="title">電腦教室樓層位置</font>: 1F<br>
+                    <font class="title">教室編號</font>: 101<br>
+                    <font class="title">可容納人數</font>: 40人<br>
+                    <font class="title">借用</font>: 所屬空間專題生使用學生證刷卡進出<br>
+                    <font class="title">建置設備</font>: 電腦<br>
+                    <font class="title">教室簡介</font>: 提供三年級學生進行專題分組究研專用空間，每組提供學生研究專題、系統實驗、測試之專用電腦設備，及可供學生討論專題之空間<br>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/102.jpg" class="picture" id="sec5"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 物聯網微課程創客實作基地<br>
+                    <font class="title">電腦教室樓層位置</font>: 1F<br>
+                    <font class="title">教室編號</font>: 102<br>
+                    <font class="title">可容納人數</font>: 30人<br>
+                    <font class="title">借用</font>: 洽系辦公室，限本系師生借用<br>
+                    <font class="title">建置設備</font>: 電腦、投影機、3D印表機、50吋顯示器、音響設備等<br>
+                    <font class="title">教室簡介</font>:
+                    提供老師開設實作型微型課程，或學生及社團組織舉辦相關高中職營隊活動的空間，並展示學長姐的實作與競賽成果。教室內共有5張討論桌，同學亦可至系辦登記借用。<br>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/104.jpg" class="picture" id="sec6"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 專業教室<br>
+                    <font class="title">電腦教室樓層位置</font>: 1F<br>
+                    <font class="title">教室編號</font>: 104<br>
+                    <font class="title">可容納人數</font>: 60人<br>
+                    <font class="title">借用</font>: 洽系辦公室，限本系師生借用<br>
+                    <font class="title">建置設備</font>: 電腦、投影機、音響設備<br>
+                    <font class="title">教室簡介</font>:
+                    階梯式專業教室，共分為三層62個座位，主席桌共5個座位，主要提供碩士班、碩專班、各項活動場地、學生特殊需求使用，每個座位皆有提供插頭，方便相關電子設備使用，本教室搭配有資訊講桌教學設備，以提供完整之教學環境。<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="table_picture"><img src="assets/img/2f.jpg" class="floor_picture" id="sec2"
+                        usemap="#floor2"></td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/201.jpg" class="picture" id="sec7"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 專業電腦教室<br>
+                    <font class="title">樓層位置</font>: 2F<br>
+                    <font class="title">教室編號</font>: 201<br>
+                    <font class="title">可容納人數</font>: 75人<br>
+                    <font class="title">借用</font>: 課餘時間提供本系大學部學生自由刷卡進入<br>
+                    <font class="title">建置設備</font>: 75台個人電腦、教學廣播系統、投影機、音響設備<br>
+                    <font class="title">教室簡介</font>: 教室內配置75台 Windows 10 個人電腦，可提供全系學生於課程教學、作業討論、專題實驗、及各項系統測試之使用。<br>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/203.png" class="picture" id="sec8"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 會議室<br>
+                    <font class="title">樓層位置</font>: 2F<br>
+                    <font class="title">教室編號</font>: 203<br>
+                    <font class="title">可容納人數</font>: 25人<br>
+                    <font class="title">借用</font>: 洽系辦公室<br>
+                    <font class="title">建置設備</font>: 電腦、投影機<br>
+                    <font class="title">教室簡介</font>: U字型會議桌，以提供課程、會議中能夠有良好的討論交流環境。<br>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/205.jpg" class="picture" id="sec9"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 討論室<br>
+                    <font class="title">樓層位置</font>: 2F<br>
+                    <font class="title">教室編號</font>: 205<br>
+                    <font class="title">可容納人數</font>: 15人<br>
+                    <font class="title">借用</font>: 洽系辦公室<br>
+                    <font class="title">建置設備</font>: 投影機設備<br>
+                    <font class="title">教室簡介</font>: 定位為老師與學生間，進行課業、訪談、交流之討論室，以四色座椅方式，可給需學生進行分組進行討論。<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="table_picture"><img src="assets/img/3f.jpg" class="floor_picture" id="sec3"
+                        usemap="#floor3"></td>
+            </tr>
+            <tr>
+                <td class="table_picture"><img src="assets/img/301.png" class="picture" id="sec10"></td>
+                <td class="text">
+                    <font class="title">教室名稱</font>: 301<br>
+                    <font class="title">電腦教室樓層位置</font>: 3F<br>
+                    <font class="title">教室編號</font>: 301<br>
+                    <font class="title">可容納人數</font>: 20人<br>
+                    <font class="title">借用</font>: 否<br>
+                    <font class="title">建置設備</font>: 電腦主機<br>
+                    <font class="title">教室簡介</font>: 提供三年級學生進行專題分組究研專用空間，每組提供學生研究專題、系統實驗、測試之專用電腦設備，及可供學生討論專題之空間。<br>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <nav id="float">
+        <ul>
+          <li id="top"><a href="teacher_introduction.html">師資介紹</a></li>
+          <li><a href="department_resources.html">系所資源</a></li>
+          <li id="button"><a href="https://www.instagram.com/cycuim/" target="_blank">系學會IG</a></li>
+        </ul>
+      </nav>
+      <footer id="footer">
+        <p> © 2021 CYIM. ALL Rights Reserved.</p>
+      </footer>
+</body>
+
+</html>

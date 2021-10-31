@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.js{
+	
+	line-height:2em;
+	margin:0 auto;
+	justify-content: center; 
+	display: flex;
+  
+}
+
+dt{
+	float:left;
+}
+
+dd{
+	float:left;
+	width:400px;
+	height:324px;
+	overflow:hidden;
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+dt a{
+	text-align:center;
+	display:block;
+	
+	width:50px;
+	height:315px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+dt a:hover{
+	background:#6db7e7;
+}
+
+dt:nth-of-type(1), dd:nth-of-type(1){
+	background:#9fd075;
+}
+
+dt:nth-of-type(2), dd:nth-of-type(2){
+	background:#afca79;
+}
+
+dt:nth-of-type(3), dd:nth-of-type(3){
+	background:#9fd075;
+}
+
+dt:nth-of-type(4), dd:nth-of-type(4){
+	background:#afca79;
+}
+table{
+	display: flex;
+    justify-content: center; 
+	border-collapse:collapse;
+	
+}
+td{ 
+	 border:1px solid #cccccc;
+	 color:#555555; 
+	 text-align:center;
+}
+.odd
+	{background-color:#ffffff;
+}
+.even
+	{ background-color:#efefef;
+}
+.title{
+	background-color:#c8d8a9;
+}
+.title_a{
+	text-align: center;
+}
+.course td{	
+	width: 300px;
+}
+.interent td{
+	width: 440px;
+}
+.interent a{
+	text-decoration:none;
+	color: rgb(27, 110, 187);
+}
+
+.interent a:hover{
+    border-radius: 5px;
+    background-color: #c8d8a9;
+	color:rgb(27, 110, 187);
+}
+
+/*第一欄第一列：左上*/
+tr:first-child td:first-child{
+	border-top-left-radius: 10px;
+  }
+  /*第一欄最後列：左下*/
+  tr:last-child td:first-child{
+	border-bottom-left-radius: 10px;
+  }
+  /*最後欄第一列：右上*/
+  tr:first-child td:last-child{
+	border-top-right-radius: 10px;
+  }
+  /*最後欄第一列：右下*/
+  tr:last-child td:last-child{
+	border-bottom-right-radius: 10px;
+  }
+  table{
+	border-collapse: separate;
+	border-spacing: 0;
+  }
