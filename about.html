@@ -117,7 +117,32 @@
         
         </table>
 
-        
+         <div class="form">
+            <form method="post" action="mailto:howardtuan@gmail.com?subject=CyimResponse" enctype="text/plain" >
+            <fieldset>
+                <legend>回饋我們</legend>
+                <ol type="1">
+                   <label for="name"> <li>姓名：<input type="text" name="name" id="name"></li></label>
+                    <li>性別：
+                        <label for="boy"><input type="radio" name="sex" value="boy" id="boy" />男生</label>
+                       <label for="girl"><input type="radio" name="sex" value="girl" id="girl" />女生</label> 
+                    </li>
+                    <li>年齡：
+                       <label for="y20"> <input type="radio" name="year" value="20" id="y20"/>未滿21歲</label>
+                       <label for="y40"> <input type="radio" name="year" value="40" id="y40"/>21歲~40歲</label>
+                       <label for="y60"> <input type="radio" name="year" value="60" id="y60"/>41歲~60歲</label>
+                       <label for="y60up"> <input type="radio" name="year" value="over60" id="y60up" />61歲以上</label>
+                    </li>
+                    <li>
+                        有什麼建議嗎（渴望的眼神：<br>
+                        <textarea name="suggest" cols="40" rows="3" wrap="hard"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+            <input type="submit" value="送出" class="submit"/>
+            <input type="reset" value="重置" class="reset"/>
+        </form>
+    </div>
             
     </main>
     <nav id="float">
