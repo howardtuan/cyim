@@ -1,0 +1,74 @@
+.title_1 {
+    font-size: 33px;
+    font-family: "DFKai-SB";
+    text-align: center;
+    background-color: #F2FFFA;
+}
+
+table {
+    width: 1000px;
+    border: 3px #7FA368 solid;
+}
+
+.job {
+    font-weight: bolder;
+}
+
+td {
+    padding: 15px;
+    color: gray;
+    vertical-align: top;
+}
+
+td a {
+    font-weight: bolder;
+    color: gray;
+}
+
+td a:hover {
+    font-weight: bolder;
+    color: blue;
+}
+
+.graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flotcontainer {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    font-size: 12px;
+    color: gray;
+}
+
+.information {
+    display: block;
+    background-color: white;
+    border: 3px #7FA368 solid;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    position: relative;
+}
+
+
+p a {
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+p a:hover {
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
