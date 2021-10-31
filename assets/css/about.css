@@ -3,6 +3,7 @@ table {
 	justify-content: center;
 	border-collapse: collapse;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 td {
@@ -10,6 +11,8 @@ td {
 	color: #555555;
 	text-align: center;
 	background-color: #e9e8ca;
+	padding-top: 5px;
+	padding-bottom: 5px ;
 }
 
 td>p {
