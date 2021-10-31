@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: 微軟正黑體 Light;
+    -webkit-font-smoothing:antialiased;
+}
+
+header{
+	background:#7FA368;
+	position:fixed;
+	width:100%;
+	z-index: 0;
+	
+}
+
+header h1{
+	color:white;
+	padding:90px 25px;
+	font-size:3.5em;
+	font-weight:bold;
+	transition: padding .3s, font-size .3s;
+}
+
+header nav{
+	position:absolute;
+	top:134px;
+	right:25px;
+	transition: top .3s;
+}
+
+header.small h1{
+	padding:25px;
+	font-size:1.5em;
+}
+
+header.small nav{
+	top:30px;
+}
+
+
+header h1 a{
+	text-decoration:none;
+	color: white;
+}
+nav div{
+	float:left;
+	margin-left:20px;
+    margin-top: 20px;
+	list-style-type:none;
+	font-weight:bold;
+}
+
+nav div a{
+	text-decoration:none;
+	color: white;
+}
+
+nav div a:hover{
+    border-radius: 5px;
+    background-color: white;
+	color:green;
+}
+table{
+	width: 75%;
+	border-collapse: collapse;
+	border: 1px solid lightgray;
+}
+th, td{
+	padding: 15px;
+}
+.name{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.position{
+	text-align: center;
+}
+.teacher_picture{
+	text-align: center;
+	background-color: #E2DDCC;
+}
+.introduction{
+	background-color: #F6F6F6;
+}
+#table_name{
+	font-size: 33px;
+	font-family: "DFKai-SB";
+	text-align: center;
+	background-color: #F2FFFA;
+}
