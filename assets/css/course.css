@@ -63,7 +63,7 @@ table{
 }
 td{ 
 	 border:1px solid #cccccc;
-	 color:#555555; 
+	 color:black; 
 	 text-align:center;
 }
 .odd
@@ -115,3 +115,4 @@ tr:first-child td:first-child{
 	border-collapse: separate;
 	border-spacing: 0;
   }
+ 
